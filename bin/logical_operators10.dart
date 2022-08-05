@@ -9,14 +9,11 @@ Given integer a,  check the following statement "The integer is two-digit number
 */
 
 bool func(int a) {
-    if ( a>9 || a<100 ){
-        return true;
-    }
-    return false;
+     return a>9 && a<100 ;
 }
 
 
 
 void main() {
-    print(func(12));
+    print(func(13));
 }

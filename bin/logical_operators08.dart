@@ -8,5 +8,13 @@ Create a function argument  called a, b of type int
     Returns:
         bool: answer
 */
+bool func(int a, int b){
+    if ( a%2==0 && b%2==1|| a%2==1 && b%2==0){
+        return true;
+    }
+    return false;
+}
 
-void main() {}
+void main() {
+    print(func(-3,8));
+}

@@ -8,5 +8,14 @@ Given two integers a, b,  check the following statement "Each of the numbers 'a'
     Returns:
         bool: answer
 */
+bool func(int a, int b){
+    if ( a%2!=0 && b%2!=0 ){
+        return true;
 
-void main() {}
+    }
+     return false;
+}
+
+void main() {
+    print(func(9,1));
+}
